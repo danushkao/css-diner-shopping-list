@@ -1,0 +1,112 @@
+*{transition: all .1s ease-in;}
+
+
+
+body {
+	font: 400 14px/1.3 'Trebuchet MS', Trebuchet, sans-serif;
+	margin:0 0;
+	background: #f5f4ef;
+}
+
+.container {
+	height: 100%;
+    line-height: 100%;
+    text-align: center;
+    width: 97%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+header {
+	background-color: #4A4F56;
+}
+.main-header {
+	padding: 20px;
+	margin: 20px 0 0 0;
+
+}
+h1 {
+	color: #EB7E7F;
+	font-size: 30px;
+}
+h3 {
+	color: #EB7E7F;
+	font-size: 20px;
+}
+
+
+main {
+	background-color: #3B3F45;
+	padding-bottom: 21px;
+}
+ul {
+	margin: 0 auto;
+	padding: 30px;
+
+    width: 50%;
+
+
+}
+li {
+	height: 50px;
+	list-style-type: none;
+	background-color: #88839E;
+
+
+
+}
+label {
+	float: left;
+	margin: 15px;
+	display: block;
+}
+
+ul li:nth-child(even) {
+	background-color: #7A7593;
+}
+
+span {
+	font-size: 20px;
+	color: white;
+}
+small {
+	font-size: 13px;
+	color: #C4CACD;
+}
+small:before {
+	content: "(";
+}
+small:after {
+	content: ")";
+}
+
+ul li:hover {
+	background: #5F6072;
+	border: 2px solid white;
+	border-left: none;
+	border-right: none;
+}
+
+.shopping-list li:active {
+    background-color: #EB7F7F;
+    color:#C4CACD;
+
+}
+
+.shopping-list [type="checkbox"]:checked + span  {
+    text-decoration: line-through;
+    color:#C4CACD;
+}
+
+
+footer {
+	padding: 5px 15px;
+	background-color: #4A4F56;
+	margin: 0 auto;
+    width: 47%;
+    margin-bottom: 25px;
+
+
+}
+ [type="checkbox"]:focus{
+  	border: 1px solid #eb7e7f;
+  }
